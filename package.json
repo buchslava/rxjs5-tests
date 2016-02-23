@@ -1,0 +1,22 @@
+{
+  "name": "rxjs5-testing",
+  "version": "1.0.0",
+  "description": "RxJS5 testing",
+  "repository": "https://github.com/buchslava/rxjs5-tests.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha \"test/**/*.spec.js\""
+  },
+  "author": "Vyacheslav Chub",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "sinon": "1.17.3",
+    "sinon-chai": "2.8.0"
+  }
+}
