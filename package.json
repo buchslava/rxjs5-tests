@@ -11,6 +11,8 @@
   "author": "Vyacheslav Chub",
   "license": "ISC",
   "dependencies": {
+    "csv-parse": "1.0.2",
+    "fs": "0.0.2",
     "rxjs": "5.0.0-beta.2"
   },
   "devDependencies": {
