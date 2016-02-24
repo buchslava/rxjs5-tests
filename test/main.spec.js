@@ -50,4 +50,15 @@ describe('rxjs5 tests', () => {
         () => done()
       );
   });
+
+  it('testing for get folders observable', done => {
+    lib.getFolders('test/fixtures')
+      .subscribe(
+        () => {
+        },
+        () => {
+        },
+        () => done()
+      );
+  });
 });
