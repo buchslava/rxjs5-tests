@@ -39,4 +39,15 @@ describe('rxjs5 tests', () => {
         () => done()
       );
   });
+
+  it('testing for recursive read dir observable', done => {
+    lib.recursiveReadDir('test/fixtures')
+      .subscribe(
+        () => {
+        },
+        () => {
+        },
+        () => done()
+      );
+  });
 });

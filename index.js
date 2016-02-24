@@ -9,3 +9,7 @@ lib
 lib
   .getFileReadObservable('./test/fixtures/example.csv')
   .subscribe(x => console.log(x));
+
+lib
+  .recursiveReadDir('./test/fixtures')
+  .subscribe(x => console.log(x));
